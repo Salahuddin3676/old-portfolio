@@ -1,0 +1,121 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js" defer></script>
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <header class="navbar">
+        <a href="#hero"><img src="./images/logo.jpg" alt="LOGO" class="logo"></a>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="#hero" class="nav-links">Home</a></li>
+                <li><a href="#about" class="nav-links">About</a></li>
+                <li><a href="#work" class="nav-links">My Work</a></li>
+                <li><a href="#contact" class="nav-links">Contact</a></li>
+            </ul>
+        </div>
+        <div class="toggle-button">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </header>
+
+        <section class="hero" id="hero">
+            <div class="hero--container">
+                <p class="para-1">Hi, I am</p>
+                <h1>Ghazi Salahuddin</h1>
+                <p class="para-2">a Junior Front End Developer</p>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="about--container">
+                <h1>About Me</h1>
+                <p>I recently graduated in Computer Applications, currently based in karnataka, India <br>
+                    I am currently learning few web technologies.
+                </p>
+                <h4>Technologies that I know :</h4>
+                <li><span>▹</span> HTML5</li>
+                <li><span>▹</span> CSS3</li>
+                <li><span>▹</span> JavaScript</li>
+                <li><span>▹</span> React js</li>
+                <li><span>▹</span> jQuery</li>
+                <li><span>▹</span> Bootstrap</li>
+            </div>
+        </section>
+
+        <section class="work" id="work">
+            <div class="work--container">
+                <h1>My Projects</h1>
+                <div class="cards">
+                    <div class="card card1">
+                        <div class="top-section"></div>
+                        <hr>
+                        <div class="bottom-section">
+                            <p>Random Background Color generator using JavaScript.</p>
+                            <a href="./projects/Color Flipper/index.html" target="_blank"><button>Open</button></a>
+                        </div>
+                    </div>
+                    <div class="card card2">
+                        <div class="top-section"></div>
+                        <hr>
+                        <div class="bottom-section">
+                            <p>A Counter App using JavaScript.</p>
+                            <a href="./projects/Counter App/index.html" target="_blank"><button>Open</button></a>
+                        </div>
+                    </div>
+                    <div class="card card3">
+                        <div class="top-section"></div>
+                        <hr>
+                        <div class="bottom-section">
+                            <p>A Reviews generator using JavaScript.</p>
+                            <a href="./projects/Reviews/index.html" target="_blank"><button>Open</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="contact--container">
+                <h1>Have a message? Contact me</h1>
+                <form>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Your Name" required>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Your Email">
+                    <label for="message">Your Message</label>
+                    <textarea name="message" id="message" rows="5" placeholder="Your message"
+                        required></textarea>
+                    <button>Send Message</button>
+                </form>
+            </div>
+        </section>
+
+    <footer id="footer">
+        <div class="footer--container">
+            <div class="logos">
+                <a href="https://twitter.com/Kingz_3676" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/salahuddin-quasmi-389156176/" target="_blank"><i
+                        class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/Salahuddin3676" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <p>Designed and Developed by @Ghazi Salahuddin</p>
+        </div>
+    </footer>
+</body>
+
+</html>
