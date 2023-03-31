@@ -57,7 +57,7 @@
     }
 
     #img {
-        background-color: var(--secondary-color);
+        background-color: var(--primary-color);
         padding: 5px;
         width: 35px;
         height: 35px;
@@ -355,7 +355,7 @@ footer {
         #img {
             padding: 3px;
             position: absolute;
-            top: 2px;
+            top: 1px;
             right: 25%;
             border: 1px solid var(--secondary-color);
         }

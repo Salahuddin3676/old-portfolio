@@ -15,8 +15,8 @@ image.addEventListener('click', function(){
     document.body.classList.toggle('dark-theme')
 
     if(document.body.classList.contains('dark-theme')) {
-        image.src = './images/sun-regular.svg';
+        image.src = './images/sun.png';
     } else{
-        image.src = './images/moon-regular.svg';
+        image.src = './images/moon.png';
     }
 })
