@@ -9,3 +9,14 @@ document.querySelectorAll('.nav-links').forEach( link => link.addEventListener('
     navbarLinks.classList.toggle('active');
 }))
 
+const image = document.getElementById('img');
+
+image.addEventListener('click', function(){
+    document.body.classList.toggle('dark-theme')
+
+    if(document.body.classList.contains('dark-theme')) {
+        image.src = './images/sun-regular.svg';
+    } else{
+        image.src = './images/moon-regular.svg';
+    }
+})
