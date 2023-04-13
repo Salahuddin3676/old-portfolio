@@ -15,9 +15,9 @@ async function getWeather(city) {
         let data = await response.json();
 
         document.querySelector('.city').innerHTML = data.name;
-        document.querySelector('.temp').innerHTML = data.main.temp;
-        document.querySelector('.humidity').innerHTML = data.main.humidity;
-        document.querySelector('.wind').innerHTML = data.wind.speed;
+        document.querySelector('.temp').innerHTML = data.main.temp +'°c';
+        document.querySelector('.humidity').innerHTML = data.main.humidity+'%';
+        document.querySelector('.wind').innerHTML = data.wind.speed + 'km/hr';
 
         if (data.weather[0].main == 'Clear') {
             weatherIcon.src = 'images/clear.png'
