@@ -136,7 +136,7 @@ body{
 
     .weather h1{
         font-size: 75px;
-        margin: 5px auto 10;
+        margin: 5px auto 10px;
     }
     
     .details{
