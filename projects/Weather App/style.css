@@ -9,11 +9,10 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #333;
 }
 
 .card{
-    background: linear-gradient(125deg,  skyblue, rgb(47, 47, 154));
+    background: linear-gradient(125deg,  skyblue, rgb(85, 85, 165));
     padding: 30px;
     width: 85%;
     max-width: 380px;
@@ -109,7 +108,7 @@ body{
 @media (max-width:425px) {
 
     .card{
-        padding: 35px 20px;
+        padding: 40px 30px;
     }
 
     .search-section input{
@@ -136,11 +135,11 @@ body{
 
     .weather h1{
         font-size: 75px;
-        margin: 5px auto 10px;
+        margin: 5px auto 20px;
     }
     
     .details{
-        margin-top: 40px;
+        margin-top: 50px;
     }
 
     .details--column{
