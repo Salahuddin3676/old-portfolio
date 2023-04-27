@@ -158,12 +158,12 @@ body{
     }
 
     .text-box{
-        width: auto;
+        width: 60%;
     }
 
-    .btn{
-        width: 150px;
-        padding: 0 5px;
+    .input-section .btn{
+        width: 40%;
+        padding: 0;
     }
 
     .list-container li{
