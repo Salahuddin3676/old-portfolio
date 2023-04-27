@@ -130,7 +130,7 @@ body{
 
 .list-container li p::before{
     content: '';
-    background: url(/images/unchecked.png);
+    background: url(./images/unchecked.png);
     background-position: center;
     background-size: cover;
     width: 23px;
@@ -147,7 +147,7 @@ body{
 }
 
 .list-container li p.selected::before{
-    background: url(/images/checked.png);
+    background: url(./images/checked.png);
     background-size: cover;
 }
 
@@ -162,7 +162,7 @@ body{
     }
 
     .btn{
-        width: 110px;
+        width: 150px;
         padding: 0 5px;
     }
 
